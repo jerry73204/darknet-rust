@@ -10,9 +10,12 @@ keywords = ["darknet", "machine-learning", "deep-learning", "neural-networks", "
 readme = "./README.md"
 
 [dependencies]
-darknet-sys = "^0.2.0"
+darknet-sys = { version = "^0.2.0", path = "/mnt/ssd2/home/aeon/repo/darknet-sys-rust" }
 image = "^0.23.1"
 libc = "^0.2.0"
 failure = "^0.1.8"
 num-derive = "^0.3.0"
 num-traits = "^0.2.0"
+
+[dev-dependencies]
+itertools = "^0.9.0"
